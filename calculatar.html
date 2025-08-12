@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculatar</title>
+         <style type="text/css">
+        </style>
+         <link rel="stylesheet" href="D:\Web Desinger\html\calculatar.css">
+    </head>
+    
+        <script>
+            function sum()
+            {
+                var fv = parseInt( document.getElementById("f").value ); //"10"
+                var sv = parseInt( document.getElementById("s").value ); //"20"
+
+                var ope = document.getElementById("op").value;
+                //var add = document.getElementById("ad").value;
+
+                if(ope === '+' )
+            {
+                document.getElementById("r").value = fv+sv;
+
+            }
+              else if(ope === '-')
+              {
+                document.getElementById("r").value = fv-sv;
+
+              }
+              else if(ope === '*')
+              {
+                document.getElementById("r").value = fv*sv;
+
+              }
+               else if(ope === '/')
+              {
+                document.getElementById("r").value = fv/sv;
+
+              }
+
+               document.getElementById("f").value ="";
+               document.getElementById("s").value ="";
+
+            }//close sum()
+
+
+        </script>
+        
+     </head>
+
+     <body>
+        <div id="center-all">
+    
+        <input type="text" id="f" /> <br>
+        <input type="text" id="s" /> <br>
+        <input type="text" id="r"  /><br>
+        
+       <select id= "op">
+            <option value="+"> ++ </option>
+            <option value="-"> -- </option>
+            <option value="*"> * </option>
+            <option value="/"> % </option>
+            
+        </select>
+        
+        <br><br>
+
+        <!--<button onclick="" > + </button>-->
+        <button onclick="sum()" id="g" onmouseover="style= 'color:red' " > = </button>
+    
+</div>
+     </body>
+</html>

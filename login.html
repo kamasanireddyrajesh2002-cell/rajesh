@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="D:\Web Desinger\html\login.css">
+    <script>
+      function check_form()
+      {
+
+
+var un =  document.getElementById('ba').value;
+var pw =  document.getElementById('de').value;
+
+if (un ==="" || pw ==="" )
+{
+	alert ("plz ent un or pw");
+	return false; // it stops action
+}
+else{
+	alert ('submitted un and pw');
+	return true;  // it start action
+}
+
+      }
+
+    </script>
+  </head>
+  
+    <form action ="gmail.html" method ="post" onSubmit="return check_form();">
+    <div>
+       <img src="C:\Users\Naveen\Downloads\WEBPAGE.jpg" class="center-img" alt="sample image"/>
+       
+        <aside id="main-aside1">
+    <table >
+    <p class="cc" >Username</p>
+    <td > <input class="ba" type="text"   placeholder="admin"> </td>
+    <tr>
+    <td> <p class="es">Password </p></td>
+     </tr>
+    <td> <input class="de" type="text" placeholder="....."> </td>
+    
+
+
+    </table>
+   <input type="submit" value="login" id="cr">
+
+    <h3
+     class="kk">Forget Password
+    </h3>
+  </aside>
+
+      </div>
+    </from>
+  </body>
+
+</html>

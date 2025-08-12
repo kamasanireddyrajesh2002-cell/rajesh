@@ -1,0 +1,56 @@
+#center-all
+{
+    width:960px;
+    height:650px;
+    background-color:grey;
+    margin:auto;
+}
+
+#main-header{
+    width:960px;
+    height:100px;
+    background-color:rgb(6, 240, 33);
+    
+}
+
+#main-nav{
+    width:960px;
+    height:50px;
+    background-color:rgb(10, 6, 240);
+    
+}
+#main-section{
+    width:640px;
+    height:400px;
+    background-color:rgb(6, 240, 205);
+
+    float:left;
+    
+}
+#main-aside1{
+    width:320px;
+    height:200px;
+    background-color:rgb(240, 6, 185);
+
+    float:right;
+    
+}
+
+#main-aside2{
+    width:320px;
+    height:190px;
+    background-color:rgb(201, 240, 6);
+
+    float:right;
+    margin-top: 10px;
+    
+}
+
+#main-footer{
+    width:960px;
+    height:100px;
+    background-color:rgb(240, 6, 6);
+
+    clear: both;
+    
+}

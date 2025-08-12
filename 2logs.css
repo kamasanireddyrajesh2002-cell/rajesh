@@ -1,0 +1,39 @@
+.center-all{
+    margin-left: 150px;
+   
+
+
+}
+.rb{
+    position: relative;top: 400px;
+    color: rgb(8, 151, 228);
+    margin-left: 200px;
+    font-family: 'Bahnschrift light';
+    font-size: 37px;
+    
+}
+.rc{
+    position: relative;top: 410px;
+    margin-left: 200px;
+    font-size: 25px;
+    margin-top: -30px;
+     font-family: 'Bahnschrift light';
+    
+}
+.rd{
+    position: relative;top: 420px;
+    margin-left: 200px;
+    font-size: 21.5px;
+    margin-top: -20px;
+     font-family: 'Bahnschrift light';
+     color: rgb(137, 137, 137);
+}
+.re{
+    position: relative;top: 430px;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top:-25px ;
+    margin-bottom: 70px;
+     font-family: 'Bahnschrift light';
+     color: rgb(186, 186, 186);
+}

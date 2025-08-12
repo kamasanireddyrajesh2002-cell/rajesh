@@ -1,0 +1,43 @@
+#center-all{
+    width: 400px;
+    height: 480px;
+    margin: auto;
+    margin-top: 15px;
+    
+    background-color: rgb(61, 59, 59);
+}
+#op
+{
+  width: 100px;
+  height: 25px;
+  margin-left: 150px;
+  margin-top: 200px;
+}
+
+#f
+{
+    width: 250px;
+    height: 25px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#s
+{
+    width: 250px;
+    height: 25px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#r
+{
+    width: 250px;
+    height: 25px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#g
+{
+    width: 70px;
+    margin-left: 160px;
+
+}
